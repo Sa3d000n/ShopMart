@@ -1,12 +1,62 @@
-# React + Vite
+🛒 ShopMart – E-commerce React App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+ShopMart is a modern, responsive e-commerce interface built with React and Redux. It includes features like product listing, filtering, cart management, wishlist, and dark mode support.
+📦 Features
 
-Currently, two official plugins are available:
+    🛍 Product listing with pagination and search
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+    🎯 Filter by category, price, and sort by name/price/rating
 
-## Expanding the ESLint configuration
+    ❤️ Wishlist functionality
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+    🛒 Cart management with quantity adjustment
+
+    💾 LocalStorage persistence
+
+🚀 Live Demo
+
+   https://shop-mart-theta.vercel.app/
+
+🛠️ Tech Stack
+
+    React
+
+    Redux Toolkit
+
+    React Router
+
+    Tailwind CSS
+
+🧰 Installation
+
+    Clone the repository
+
+git clone https://github.com/your-username/shopmart.git
+cd shopmart
+
+    Install dependencies
+
+npm install
+
+    Start the development server
+
+npm run dev
+
+    The app should now be running at http://localhost:5173 (if using Vite).
+
+📦 Build for Production
+
+npm run build
+
+Then preview it locally:
+
+npm run preview
+
+🧪 Linting
+
+npm run lint
+
+📄 License
+
+This project is licensed under the MIT License.
+Feel free to use and modify it for your learning or commercial projects.
